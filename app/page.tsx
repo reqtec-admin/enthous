@@ -1,3 +1,5 @@
+"use client"
+
 import Navigation from "@/components/navigation"
 import Hero from "@/components/hero"
 import Overview from "@/components/overview"
@@ -7,8 +9,6 @@ import SuccessCriteria from "@/components/success-criteria"
 import CTA from "@/components/cta"
 import Footer from "@/components/footer"
 import ProtectedFinancials from "@/components/protected-financials"
-;("use client")
-
 import { useRef } from "react"
 
 export default function Home() {
