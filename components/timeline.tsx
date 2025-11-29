@@ -3,58 +3,40 @@
 export default function Timeline() {
   const phases = [
     {
-      phase: 0,
-      title: "Setup & Governance",
-      weeks: "1–3",
-      deliverables: [
-        "Project charter & roles",
-        "Security & compliance policy",
-        "Hardware/infra procurement",
-        "Secrets management (Vault/AWS Secrets Manager)",
-      ],
-    },
-    {
       phase: 1,
-      title: "Secure Data Ingestion & Lake",
-      weeks: "4–8",
+      title: "Infrastructure Setup & VPC",
+      weeks: "1–4",
+      month: "Month 1",
       deliverables: [
-        "100–150 TB raw tick storage",
-        "Immutable append-only raw zone",
-        "Kerberos + LDAP/AD access control",
-        "Data catalog (Amundala/Nessie + Iceberg)",
+        "Hardware procurement and setup",
+        "VPC configuration and network security",
+        "Access control implementation",
+        "Secrets management (Vault/AWS Secrets Manager)",
+        "Data storage foundation",
       ],
     },
     {
       phase: 2,
-      title: "Feature Store & Baseline",
-      weeks: "9–13",
+      title: "Model Running Environment",
+      weeks: "5–8",
+      month: "Month 2",
       deliverables: [
-        "System re-implementation in new environment",
-        "Feature store (Feast/custom + Delta Lake)",
-        "Full backtest baseline reproduction",
-        "Versioned dataset snapshots",
+        "Model execution environment setup",
+        "Development and testing infrastructure",
+        "Integration with data storage",
+        "Initial model deployment pipeline",
       ],
     },
     {
       phase: 3,
-      title: "Model Development Loop",
-      weeks: "14–20",
+      title: "Proof of Concept & Validation",
+      weeks: "9–12",
+      month: "Month 3",
       deliverables: [
-        "MLflow experiment tracker",
-        "Automated daily/weekly backtests",
-        "Probability calibration module",
-        "Market-state embedding prototypes",
-      ],
-    },
-    {
-      phase: 4,
-      title: "Testing, Warehousing & Gate",
-      weeks: "21–24",
-      deliverables: [
-        "Test-result warehouse (PostgreSQL/ClickHouse)",
-        "Dashboard suite (Superset/Grafana)",
-        "Profit gate alert system",
-        "One-click reproduce script",
+        "Proof of concept implementation",
+        "Cost optimization validation",
+        "Repackaging foundation for future sales",
+        "Documentation and handoff",
       ],
     },
   ]
@@ -62,9 +44,9 @@ export default function Timeline() {
   return (
     <section id="timeline" className="py-20 px-4 sm:px-6 lg:px-8">
       <div className="max-w-7xl mx-auto">
-        <h2 className="text-4xl md:text-5xl font-bold text-white mb-4 text-balance">24-Week Roadmap</h2>
+        <h2 className="text-4xl md:text-5xl font-bold font-mono text-white mb-4 text-balance">12-Week Roadmap</h2>
         <p className="text-lg text-white/60 mb-12 max-w-2xl leading-relaxed">
-          Structured phases to build security, reproducibility, and evidence-driven confidence at every step.
+          Three monthly sprints with clear deliverables to build security, reproducibility, and evidence-driven confidence at every step.
         </p>
 
         <div className="space-y-4">
@@ -78,8 +60,8 @@ export default function Timeline() {
                   <span className="font-bold text-white">{phase.phase}</span>
                 </div>
                 <div className="flex-1">
-                  <h3 className="text-xl font-semibold text-white mb-1">{phase.title}</h3>
-                  <p className="text-sm text-white/60 font-mono">Weeks {phase.weeks}</p>
+                  <h3 className="text-xl font-semibold font-mono text-white mb-1">{phase.title}</h3>
+                  <p className="text-sm text-white/60 font-mono">{phase.month} • Weeks {phase.weeks}</p>
                 </div>
               </div>
 

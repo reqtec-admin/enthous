@@ -8,9 +8,9 @@ const _geist = Geist({ subsets: ["latin"] })
 const _geistMono = Geist_Mono({ subsets: ["latin"] })
 
 export const metadata: Metadata = {
-  title: "Enthous - Trading Strategy R&D Platform",
+  title: "Enthous.IO - Trading Strategy R&D Platform",
   description:
-    "A bulletproof, secure R&D environment for validating and scaling trading strategies. 100TB+ data handling with institutional-grade infrastructure.",
+    "A bulletproof, secure R&D environment for validating and scaling trading strategies. 10TB+ data handling with institutional-grade infrastructure.",
   generator: "v0.app",
   icons: {
     icon: [
@@ -38,7 +38,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" className="scroll-smooth">
-      <body className={`font-sans antialiased dark`}>
+      <body className={`font-sans antialiased dark`} suppressHydrationWarning>
         {children}
         <Analytics />
       </body>

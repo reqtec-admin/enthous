@@ -9,7 +9,7 @@ export default function Budget() {
       <div className="max-w-7xl mx-auto">
         <h2 className="text-4xl md:text-5xl font-bold text-white mb-4 text-balance">Budget Breakdown</h2>
         <p className="text-lg text-white/60 mb-12 max-w-2xl leading-relaxed">
-          Start lean, scale to 100TB+. Cloud costs stay near $0 until you pass the profit gate.
+          Start lean, scale to 10TB+. Cloud costs stay near $0 until you pass the profit gate.
         </p>
 
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
@@ -31,7 +31,7 @@ export default function Budget() {
                 <span className="text-white font-medium">20 TB Usable Storage (MVP)</span>
                 <span className="text-white/60 text-sm">Encrypted RAID</span>
               </div>
-              <p className="text-white/50 text-sm mb-3">ZFS architecture ready to scale to 100TB+</p>
+              <p className="text-white/50 text-sm mb-3">ZFS architecture ready to scale to 10TB+</p>
               <p className="text-2xl font-bold text-white">~$8–12K</p>
             </div>
 

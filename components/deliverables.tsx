@@ -39,7 +39,7 @@ export default function Deliverables() {
       className="py-20 px-4 sm:px-6 lg:px-8 bg-gradient-to-b from-transparent via-white/5 to-transparent"
     >
       <div className="max-w-7xl mx-auto">
-        <h2 className="text-4xl md:text-5xl font-bold text-white mb-4 text-balance">Key Deliverables</h2>
+        <h2 className="text-4xl md:text-5xl font-bold font-mono text-white mb-4 text-balance">Key Deliverables</h2>
         <p className="text-lg text-white/60 mb-12 max-w-2xl leading-relaxed">
           Three core systems that form the backbone of reproducible, auditable research.
         </p>
@@ -50,7 +50,7 @@ export default function Deliverables() {
               key={idx}
               className="p-8 rounded-2xl bg-white/5 border border-white/10 backdrop-blur-xl hover:bg-white/10 transition hover:border-blue-500/30"
             >
-              <h3 className="text-2xl font-semibold text-white mb-6">{section.title}</h3>
+              <h3 className="text-2xl font-semibold font-mono text-white mb-6">{section.title}</h3>
               <ul className="space-y-3">
                 {section.items.map((item, iIdx) => (
                   <li key={iIdx} className="flex items-start gap-3">

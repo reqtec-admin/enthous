@@ -8,7 +8,7 @@ export default function Overview() {
       icon: Database,
       title: "Secure Data Lake",
       description:
-        "On-premise or private VPC with encrypted 100TB+ sensitive market data. Immutable, auditable, WORM-like access control.",
+        "On-premise or private VPC with encrypted 10TB+ sensitive market data. Immutable, auditable, WORM-like access control.",
     },
     {
       icon: Lock,
@@ -37,7 +37,7 @@ export default function Overview() {
     >
       <div className="max-w-7xl mx-auto">
         <div className="mb-16">
-          <h2 className="text-4xl md:text-5xl font-bold text-white mb-4 text-balance">
+          <h2 className="text-4xl md:text-5xl font-bold font-mono text-white mb-4 text-balance">
             Enterprise-Grade Research Platform
           </h2>
           <p className="text-lg text-white/60 max-w-2xl leading-relaxed">
@@ -59,7 +59,7 @@ export default function Overview() {
                     <Icon className="w-6 h-6 text-white group-hover:text-blue-300 transition" />
                   </div>
                   <div className="flex-1">
-                    <h3 className="font-semibold text-white mb-2">{feature.title}</h3>
+                    <h3 className="font-semibold font-mono text-white mb-2">{feature.title}</h3>
                     <p className="text-sm text-white/60 leading-relaxed">{feature.description}</p>
                   </div>
                 </div>

@@ -6,9 +6,9 @@ export default function SuccessCriteria() {
   return (
     <section className="py-20 px-4 sm:px-6 lg:px-8">
       <div className="max-w-5xl mx-auto">
-        <h2 className="text-4xl md:text-5xl font-bold text-white mb-4 text-balance">Success at Month 6</h2>
+        <h2 className="text-4xl md:text-5xl font-bold font-mono text-white mb-4 text-balance">Success at Week 12</h2>
         <p className="text-lg text-white/60 mb-12 leading-relaxed">
-          At the end of 24 weeks, you see one of two clear outcomes:
+          At the end of 12 weeks, you see one of two clear outcomes:
         </p>
 
         <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-12">
@@ -16,7 +16,7 @@ export default function SuccessCriteria() {
           <div className="p-8 rounded-2xl bg-gradient-to-br from-white/10 to-white/5 border border-white/20 backdrop-blur-xl">
             <div className="flex items-center gap-3 mb-6">
               <TrendingUp className="w-8 h-8 text-white" />
-              <h3 className="text-2xl font-bold text-white">Option A: Go Profitable</h3>
+              <h3 className="text-2xl font-bold font-mono text-white">Option A: Go Profitable</h3>
             </div>
 
             <div className="space-y-4">
@@ -53,12 +53,12 @@ export default function SuccessCriteria() {
           <div className="p-8 rounded-2xl bg-gradient-to-br from-white/10 to-white/5 border border-white/20 backdrop-blur-xl">
             <div className="flex items-center gap-3 mb-6">
               <CheckCircle2 className="w-8 h-8 text-white" />
-              <h3 className="text-2xl font-bold text-white">Option B: Prove It's Hard</h3>
+              <h3 className="text-2xl font-bold font-mono text-white">Option B: Prove It's Hard</h3>
             </div>
 
             <div className="space-y-4">
               <p className="text-white/80 leading-relaxed">
-                After 6 months of iteration, nothing moved the needle significantly. Market regime or model assumption
+                After 12 weeks of iteration, nothing moved the needle significantly. Market regime or model assumption
                 is the blocker.
               </p>
 
@@ -86,7 +86,7 @@ export default function SuccessCriteria() {
         </div>
 
         <div className="p-8 rounded-2xl bg-white/5 border border-white/10 backdrop-blur-xl">
-          <h3 className="text-xl font-semibold text-white mb-4">The Key: Evidence-Driven Decisions</h3>
+          <h3 className="text-xl font-semibold font-mono text-white mb-4">The Key: Evidence-Driven Decisions</h3>
           <p className="text-white/70 leading-relaxed">
             Either way, you have reproducible, auditable proof of what works and what doesn't. No ambiguity. No
             million-dollar cloud surprises. Just clear signal on whether your core hypothesis holds in the data.

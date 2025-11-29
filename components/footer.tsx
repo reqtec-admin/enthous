@@ -90,9 +90,9 @@ export default function Footer() {
         <div className="pt-8 border-t border-white/10 flex flex-col md:flex-row justify-between items-center">
           <div className="flex items-center gap-2 mb-4 md:mb-0">
             <div className="w-6 h-6 bg-gradient-to-br from-white to-white/60 rounded-lg" />
-            <span className="font-mono text-sm font-bold text-white">ENTHOUS</span>
+            <span className="font-mono text-sm font-bold text-white">ENTHOUS.IO</span>
           </div>
-          <p className="text-xs text-white/50 text-center md:text-right">© 2025 Enthous. All rights reserved.</p>
+          <p className="text-xs text-white/50 text-center md:text-right">© 2025 Enthous.IO. All rights reserved.</p>
         </div>
       </div>
     </footer>

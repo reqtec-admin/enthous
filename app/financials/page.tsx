@@ -1,12 +1,13 @@
 "use client"
 
 import type React from "react"
-
 import { useState } from "react"
-import { X } from "lucide-react"
+import Navigation from "@/components/navigation"
+import Footer from "@/components/footer"
+import { ArrowLeft } from "lucide-react"
+import Link from "next/link"
 
-export default function ProtectedFinancials() {
-  const [isOpen, setIsOpen] = useState(false)
+export default function FinancialsPage() {
   const [passcode, setPasscode] = useState("")
   const [isUnlocked, setIsUnlocked] = useState(false)
   const [error, setError] = useState("")
@@ -24,35 +25,22 @@ export default function ProtectedFinancials() {
     }
   }
 
-  const openFinancials = () => {
-    setIsOpen(true)
-  }
-
   return (
-    <>
-      <button
-        onClick={openFinancials}
-        className="fixed bottom-6 right-6 px-4 py-2 bg-white/10 border border-white/20 text-white text-sm rounded-lg hover:bg-white/20 transition backdrop-blur-xl z-40"
-      >
-        Financials
-      </button>
+    <main className="bg-background min-h-screen">
+      <Navigation />
+      <section className="pt-32 pb-20 px-4 sm:px-6 lg:px-8">
+        <div className="max-w-5xl mx-auto">
+          <Link
+            href="/"
+            className="inline-flex items-center gap-2 text-white/70 hover:text-white transition mb-8"
+          >
+            <ArrowLeft className="w-4 h-4" />
+            Back to Home
+          </Link>
 
-      {isOpen && (
-        <div className="fixed inset-0 bg-black/80 backdrop-blur-sm z-50 flex items-center justify-center p-4">
-          <div className="w-full max-w-4xl max-h-[90vh] overflow-y-auto bg-black border border-white/20 rounded-2xl backdrop-blur-xl">
-            <div className="sticky top-0 flex items-center justify-between p-6 border-b border-white/10 bg-black/50 backdrop-blur">
-              <h2 className="text-2xl font-bold text-white">Financials & Team</h2>
-              <button
-                onClick={() => {
-                  setIsOpen(false)
-                  setIsUnlocked(false)
-                  setPasscode("")
-                  setError("")
-                }}
-                className="p-2 hover:bg-white/10 rounded-lg transition"
-              >
-                <X className="w-5 h-5 text-white/60" />
-              </button>
+          <div className="w-full bg-black border border-white/20 rounded-2xl backdrop-blur-xl">
+            <div className="p-6 border-b border-white/10 bg-black/50 backdrop-blur">
+              <h1 className="text-3xl font-bold font-mono text-white">Financials & Team</h1>
             </div>
 
             <div className="p-8">
@@ -80,12 +68,12 @@ export default function ProtectedFinancials() {
                 <div className="space-y-12">
                   {/* Budget Section */}
                   <div>
-                    <h3 className="text-2xl font-semibold text-white mb-6">Investment Breakdown</h3>
+                    <h2 className="text-2xl font-semibold font-mono text-white mb-6">Investment Breakdown</h2>
 
                     <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
                       {/* Infrastructure */}
                       <div className="space-y-4">
-                        <h4 className="text-lg font-semibold text-white mb-6">Infrastructure (2025 Pricing)</h4>
+                        <h3 className="text-lg font-semibold font-mono text-white mb-6">Infrastructure (2025 Pricing)</h3>
 
                         <div className="p-6 rounded-2xl bg-white/5 border border-white/10 backdrop-blur-xl">
                           <div className="flex justify-between items-start mb-2">
@@ -117,7 +105,7 @@ export default function ProtectedFinancials() {
 
                       {/* Team */}
                       <div className="space-y-4">
-                        <h4 className="text-lg font-semibold text-white mb-6">Team (6-Month Sprint)</h4>
+                        <h3 className="text-lg font-semibold font-mono text-white mb-6">Team (12-Week Sprint)</h3>
 
                         <div className="p-6 rounded-2xl bg-white/5 border border-white/10 backdrop-blur-xl">
                           <div className="flex justify-between items-start mb-2">
@@ -125,7 +113,7 @@ export default function ProtectedFinancials() {
                             <span className="text-white/60 text-sm">Part-time (0.5 FTE)</span>
                           </div>
                           <p className="text-white/50 text-sm mb-3">Pipeline + calibration focus</p>
-                          <p className="text-2xl font-bold text-white">~$45–65K</p>
+                          <p className="text-2xl font-bold text-white">~$22–32K</p>
                         </div>
 
                         <div className="p-6 rounded-2xl bg-white/5 border border-white/10 backdrop-blur-xl">
@@ -134,7 +122,7 @@ export default function ProtectedFinancials() {
                             <span className="text-white/60 text-sm">Part-time (0.5 FTE)</span>
                           </div>
                           <p className="text-white/50 text-sm mb-3">Infrastructure & compliance</p>
-                          <p className="text-2xl font-bold text-white">~$40–60K</p>
+                          <p className="text-2xl font-bold text-white">~$20–30K</p>
                         </div>
 
                         <div className="p-6 rounded-2xl bg-white/5 border border-white/10 backdrop-blur-xl">
@@ -143,7 +131,7 @@ export default function ProtectedFinancials() {
                             <span className="text-white/60 text-sm">Part-time (0.5 FTE)</span>
                           </div>
                           <p className="text-white/50 text-sm mb-3">Model validation & testing</p>
-                          <p className="text-2xl font-bold text-white">~$45–65K</p>
+                          <p className="text-2xl font-bold text-white">~$22–32K</p>
                         </div>
                       </div>
                     </div>
@@ -157,12 +145,12 @@ export default function ProtectedFinancials() {
                         <p className="text-4xl font-bold text-white">$33–57K</p>
                       </div>
                       <div>
-                        <p className="text-white/60 text-sm mb-2">Total Team (6 months)</p>
-                        <p className="text-4xl font-bold text-white">$130–190K</p>
+                        <p className="text-white/60 text-sm mb-2">Total Team (12 weeks)</p>
+                        <p className="text-4xl font-bold text-white">$65–95K</p>
                       </div>
                       <div>
                         <p className="text-white/60 text-sm mb-2">Project Total Ballpark</p>
-                        <p className="text-4xl font-bold text-white">$165–250K</p>
+                        <p className="text-4xl font-bold text-white">$98–152K</p>
                       </div>
                     </div>
                   </div>
@@ -171,7 +159,9 @@ export default function ProtectedFinancials() {
             </div>
           </div>
         </div>
-      )}
-    </>
+      </section>
+      <Footer />
+    </main>
   )
 }
+

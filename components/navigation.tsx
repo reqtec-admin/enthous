@@ -11,7 +11,7 @@ export default function Navigation() {
         <div className="flex justify-between items-center h-16">
           <div className="flex items-center gap-2">
             <div className="w-8 h-8 bg-gradient-to-br from-white to-white/60 rounded-lg" />
-            <span className="font-mono text-sm font-bold text-white">ENTHOUS</span>
+            <span className="font-mono text-sm font-bold text-white">ENTHOUS.IO</span>
           </div>
 
           <button onClick={() => setIsOpen(!isOpen)} className="md:hidden text-white">
@@ -35,9 +35,9 @@ export default function Navigation() {
             <a href="#deliverables" className="text-sm text-white/70 hover:text-white transition">
               Deliverables
             </a>
-            <button className="px-6 py-2 bg-white text-black rounded-full font-medium text-sm hover:bg-white/90 transition">
+            <a href="mailto:enthous@reqtec.com" className="px-6 py-2 bg-white text-black rounded-full font-medium font-mono text-sm hover:bg-white/90 transition">
               Get Started
-            </button>
+            </a>
           </div>
         </div>
 
