@@ -5,9 +5,6 @@ import { ArrowRight } from "lucide-react"
 export default function Hero() {
   return (
     <section className="relative pt-32 pb-20 px-4 sm:px-6 lg:px-8 overflow-hidden">
-      {/* Grid background effect */}
-      <div className="absolute inset-0 bg-[linear-gradient(to_right,rgba(255,255,255,.05)_1px,transparent_1px),linear-gradient(to_bottom,rgba(255,255,255,.05)_1px,transparent_1px)] bg-[size:40px_40px] -z-10" />
-
       <div className="max-w-5xl mx-auto">
         <div className="inline-flex items-center gap-2 mb-6 px-4 py-2 rounded-full bg-white/5 border border-white/10 backdrop-blur-xl">
           <div className="w-2 h-2 bg-white rounded-full animate-pulse" />
@@ -49,7 +46,7 @@ export default function Hero() {
           ].map((stat, idx) => (
             <div
               key={idx}
-              className="p-4 rounded-xl bg-white/5 border border-white/10 backdrop-blur-xl hover:bg-white/10 transition"
+              className="p-4 rounded-xl bg-white/5 border border-white/10 backdrop-blur-xl hover:bg-white/10 transition hover:border-blue-500/30 glass-card-accent"
             >
               <div className="text-2xl md:text-3xl font-bold font-mono text-white mb-1">{stat.label}</div>
               <div className="text-xs md:text-sm text-white/60 font-mono">{stat.value}</div>

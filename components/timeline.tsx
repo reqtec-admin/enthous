@@ -53,11 +53,11 @@ export default function Timeline() {
           {phases.map((phase, idx) => (
             <div
               key={idx}
-              className="group p-6 rounded-2xl bg-white/5 border border-white/10 backdrop-blur-xl hover:bg-white/10 transition cursor-pointer"
+              className="group p-6 rounded-2xl bg-white/5 border border-white/10 backdrop-blur-xl hover:bg-white/10 transition cursor-pointer hover:border-blue-500/30 glass-card-accent"
             >
               <div className="flex items-start gap-4 mb-4">
-                <div className="flex-shrink-0 w-12 h-12 rounded-lg bg-white/10 flex items-center justify-center">
-                  <span className="font-bold text-white">{phase.phase}</span>
+                <div className="flex-shrink-0 w-12 h-12 rounded-lg bg-white/10 group-hover:bg-blue-500/10 transition flex items-center justify-center">
+                  <span className="font-bold text-white group-hover:text-blue-300 transition">{phase.phase}</span>
                 </div>
                 <div className="flex-1">
                   <h3 className="text-xl font-semibold font-mono text-white mb-1">{phase.title}</h3>

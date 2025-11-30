@@ -36,7 +36,7 @@ export default function Team() {
           {roles.map((role, idx) => (
             <div
               key={idx}
-              className="p-6 rounded-2xl bg-white/5 border border-white/10 backdrop-blur-xl hover:bg-white/10 transition"
+              className="p-6 rounded-2xl bg-white/5 border border-white/10 backdrop-blur-xl hover:bg-white/10 transition hover:border-blue-500/30 glass-card-accent"
             >
               <div className="mb-4">
                 <h3 className="text-xl font-semibold text-white mb-1">{role.role}</h3>
@@ -47,7 +47,7 @@ export default function Team() {
           ))}
         </div>
 
-        <div className="mt-12 p-8 rounded-2xl bg-white/5 border border-white/10 backdrop-blur-xl">
+        <div className="mt-12 p-8 rounded-2xl bg-white/5 border border-white/10 backdrop-blur-xl hover:bg-white/10 transition hover:border-blue-500/30 glass-card-accent">
           <h3 className="text-lg font-semibold text-white mb-4">Total Investment</h3>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
             <div>

@@ -48,13 +48,13 @@ export default function Deliverables() {
           {deliverables.map((section, idx) => (
             <div
               key={idx}
-              className="p-8 rounded-2xl bg-white/5 border border-white/10 backdrop-blur-xl hover:bg-white/10 transition hover:border-blue-500/30"
+              className="p-8 rounded-2xl bg-white/5 border border-white/10 backdrop-blur-xl hover:bg-white/10 transition hover:border-blue-500/30 glass-card-accent group"
             >
               <h3 className="text-2xl font-semibold font-mono text-white mb-6">{section.title}</h3>
               <ul className="space-y-3">
                 {section.items.map((item, iIdx) => (
                   <li key={iIdx} className="flex items-start gap-3">
-                    <CheckCircle2 className="w-5 h-5 text-white flex-shrink-0 mt-0.5 hover:text-blue-300 transition" />
+                    <CheckCircle2 className="w-5 h-5 text-white flex-shrink-0 mt-0.5 group-hover:text-blue-300 transition" />
                     <span className="text-sm text-white/70 leading-relaxed">{item}</span>
                   </li>
                 ))}

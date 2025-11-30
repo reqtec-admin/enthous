@@ -13,9 +13,9 @@ export default function SuccessCriteria() {
 
         <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-12">
           {/* Go Profitable */}
-          <div className="p-8 rounded-2xl bg-gradient-to-br from-white/10 to-white/5 border border-white/20 backdrop-blur-xl">
+          <div className="p-8 rounded-2xl bg-gradient-to-br from-white/10 to-white/5 border border-white/20 backdrop-blur-xl hover:border-blue-500/30 glass-card-accent group transition">
             <div className="flex items-center gap-3 mb-6">
-              <TrendingUp className="w-8 h-8 text-white" />
+              <TrendingUp className="w-8 h-8 text-white group-hover:text-blue-300 transition" />
               <h3 className="text-2xl font-bold font-mono text-white">Go Profitable</h3>
             </div>
 
@@ -41,7 +41,7 @@ export default function SuccessCriteria() {
                 </li>
               </ul>
 
-              <div className="mt-6 p-4 rounded-lg bg-white/5 border border-white/10">
+              <div className="mt-6 p-4 rounded-lg bg-white/5 border border-white/10 group-hover:bg-blue-500/10 transition">
                 <p className="text-xs text-white/60 mb-2">NEXT STEP</p>
                 <p className="text-white font-semibold">→ Expand Delphi FinML Solutions</p>
               </div>
@@ -49,9 +49,9 @@ export default function SuccessCriteria() {
           </div>
 
           {/* Expand Enthous.IO */}
-          <div className="p-8 rounded-2xl bg-gradient-to-br from-white/10 to-white/5 border border-white/20 backdrop-blur-xl">
+          <div className="p-8 rounded-2xl bg-gradient-to-br from-white/10 to-white/5 border border-white/20 backdrop-blur-xl hover:border-blue-500/30 glass-card-accent group transition">
             <div className="flex items-center gap-3 mb-6">
-              <CheckCircle2 className="w-8 h-8 text-white" />
+              <CheckCircle2 className="w-8 h-8 text-white group-hover:text-blue-300 transition" />
               <h3 className="text-2xl font-bold font-mono text-white">Expand Enthous.IO</h3>
             </div>
 
@@ -75,7 +75,7 @@ export default function SuccessCriteria() {
                 </li>
               </ul>
 
-              <div className="mt-6 p-4 rounded-lg bg-white/5 border border-white/10">
+              <div className="mt-6 p-4 rounded-lg bg-white/5 border border-white/10 group-hover:bg-blue-500/10 transition">
                 <p className="text-xs text-white/60 mb-2">NEXT STEP</p>
                 <p className="text-white font-semibold">→ Scale to new FinML Model Developers</p>
               </div>
@@ -83,7 +83,7 @@ export default function SuccessCriteria() {
           </div>
         </div>
 
-        <div className="p-8 rounded-2xl bg-white/5 border border-white/10 backdrop-blur-xl">
+        <div className="p-8 rounded-2xl bg-white/5 border border-white/10 backdrop-blur-xl hover:bg-white/10 transition hover:border-blue-500/30 glass-card-accent">
           <h3 className="text-xl font-semibold font-mono text-white mb-4">The Key: Evidence-Driven Decisions</h3>
           <p className="text-white/70 leading-relaxed">
             Either way, you have reproducible, auditable proof of what works and what doesn't. No ambiguity. No

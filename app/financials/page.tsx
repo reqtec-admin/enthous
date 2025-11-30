@@ -75,7 +75,7 @@ export default function FinancialsPage() {
                       <div className="space-y-4">
                         <h3 className="text-lg font-semibold font-mono text-white mb-6">Infrastructure (2025 Pricing)</h3>
 
-                        <div className="p-6 rounded-2xl bg-white/5 border border-white/10 backdrop-blur-xl">
+                        <div className="p-6 rounded-2xl bg-white/5 border border-white/10 backdrop-blur-xl hover:bg-white/10 transition hover:border-blue-500/30 glass-card-accent">
                           <div className="flex justify-between items-start mb-2">
                             <span className="text-white font-medium">1–2 GPU Training Nodes</span>
                             <span className="text-white/60 text-sm">Starter tier</span>
@@ -84,7 +84,7 @@ export default function FinancialsPage() {
                           <p className="text-2xl font-bold text-white">~$25–40K</p>
                         </div>
 
-                        <div className="p-6 rounded-2xl bg-white/5 border border-white/10 backdrop-blur-xl">
+                        <div className="p-6 rounded-2xl bg-white/5 border border-white/10 backdrop-blur-xl hover:bg-white/10 transition hover:border-blue-500/30 glass-card-accent">
                           <div className="flex justify-between items-start mb-2">
                             <span className="text-white font-medium">20 TB Usable Storage (MVP)</span>
                             <span className="text-white/60 text-sm">Encrypted RAID</span>
@@ -93,7 +93,7 @@ export default function FinancialsPage() {
                           <p className="text-2xl font-bold text-white">~$8–12K</p>
                         </div>
 
-                        <div className="p-6 rounded-2xl bg-white/5 border border-white/10 backdrop-blur-xl">
+                        <div className="p-6 rounded-2xl bg-white/5 border border-white/10 backdrop-blur-xl hover:bg-white/10 transition hover:border-blue-500/30 glass-card-accent">
                           <div className="flex justify-between items-start mb-2">
                             <span className="text-white font-medium">Software & Licenses</span>
                             <span className="text-white/60 text-sm">Mostly OSS</span>
@@ -107,7 +107,7 @@ export default function FinancialsPage() {
                       <div className="space-y-4">
                         <h3 className="text-lg font-semibold font-mono text-white mb-6">Team (12-Week Sprint)</h3>
 
-                        <div className="p-6 rounded-2xl bg-white/5 border border-white/10 backdrop-blur-xl">
+                        <div className="p-6 rounded-2xl bg-white/5 border border-white/10 backdrop-blur-xl hover:bg-white/10 transition hover:border-blue-500/30 glass-card-accent">
                           <div className="flex justify-between items-start mb-2">
                             <span className="text-white font-medium">Senior Data/ML Engineer</span>
                             <span className="text-white/60 text-sm">Part-time (0.5 FTE)</span>
@@ -116,7 +116,7 @@ export default function FinancialsPage() {
                           <p className="text-2xl font-bold text-white">~$22–32K</p>
                         </div>
 
-                        <div className="p-6 rounded-2xl bg-white/5 border border-white/10 backdrop-blur-xl">
+                        <div className="p-6 rounded-2xl bg-white/5 border border-white/10 backdrop-blur-xl hover:bg-white/10 transition hover:border-blue-500/30 glass-card-accent">
                           <div className="flex justify-between items-start mb-2">
                             <span className="text-white font-medium">Senior DevOps/Security Engineer</span>
                             <span className="text-white/60 text-sm">Part-time (0.5 FTE)</span>
@@ -125,7 +125,7 @@ export default function FinancialsPage() {
                           <p className="text-2xl font-bold text-white">~$20–30K</p>
                         </div>
 
-                        <div className="p-6 rounded-2xl bg-white/5 border border-white/10 backdrop-blur-xl">
+                        <div className="p-6 rounded-2xl bg-white/5 border border-white/10 backdrop-blur-xl hover:bg-white/10 transition hover:border-blue-500/30 glass-card-accent">
                           <div className="flex justify-between items-start mb-2">
                             <span className="text-white font-medium">Senior Quant/Research Engineer</span>
                             <span className="text-white/60 text-sm">Part-time (0.5 FTE)</span>
@@ -138,7 +138,7 @@ export default function FinancialsPage() {
                   </div>
 
                   {/* Total Investment */}
-                  <div className="p-8 rounded-2xl bg-gradient-to-r from-white/10 to-white/5 border border-white/20 backdrop-blur-xl">
+                  <div className="p-8 rounded-2xl bg-gradient-to-r from-white/10 to-white/5 border border-white/20 backdrop-blur-xl hover:border-blue-500/30 glass-card-accent transition">
                     <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
                       <div>
                         <p className="text-white/60 text-sm mb-2">Total Hardware & Software</p>

@@ -1,6 +1,7 @@
 "use client"
 
 import { useState } from "react"
+import Link from "next/link"
 
 export default function Navigation() {
   const [isOpen, setIsOpen] = useState(false)
@@ -35,6 +36,9 @@ export default function Navigation() {
             <a href="#deliverables" className="text-sm text-white/70 hover:text-white transition">
               Deliverables
             </a>
+            <Link href="/financials" className="text-sm text-white/70 hover:text-white transition">
+              Financials
+            </Link>
             <a href="mailto:enthous@reqtec.com" className="px-6 py-2 bg-white text-black rounded-full font-medium font-mono text-sm hover:bg-white/90 transition">
               Get Started
             </a>
@@ -52,6 +56,9 @@ export default function Navigation() {
             <a href="#deliverables" className="block text-sm text-white/70 hover:text-white">
               Deliverables
             </a>
+            <Link href="/financials" className="block text-sm text-white/70 hover:text-white">
+              Financials
+            </Link>
           </div>
         )}
       </div>

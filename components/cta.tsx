@@ -11,7 +11,7 @@ export default function CTA() {
             Ready to Validate Your System?
           </h2>
           <p className="text-lg text-white/60 mb-10 leading-relaxed max-w-2xl">
-            Join the waitlist today.
+            Enthous.IO is expected to have rapid growth this next year. Availabilty as we scale is a concern. Reserve your spot today to gaurantee an opportunity to dial in your sensitive models.
           </p>
 
           <div className="flex flex-col sm:flex-row gap-4 mb-8">
