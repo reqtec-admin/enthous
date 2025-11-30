@@ -11,13 +11,12 @@ export default function CTA() {
             Ready to Validate Your System?
           </h2>
           <p className="text-lg text-white/60 mb-10 leading-relaxed max-w-2xl">
-            Start the 12-week sprint to bulletproof your trading strategy. We'll help you build the infrastructure, run
-            the experiments, and deliver clear yes/no signals.
+            Join the waitlist today.
           </p>
 
           <div className="flex flex-col sm:flex-row gap-4 mb-8">
             <a href="mailto:enthous@reqtec.com" className="px-8 py-4 bg-white text-black rounded-full font-semibold font-mono hover:bg-white/90 transition flex items-center justify-center gap-2 flex-1 sm:flex-none">
-              Get Started Today
+              Join the Waitlist
               <ArrowRight className="w-4 h-4" />
             </a>
             <a
@@ -29,7 +28,7 @@ export default function CTA() {
           </div>
 
           <p className="text-sm text-white/50 font-mono">
-            Typical project kickoff: 2–4 weeks. Full 12-week research cycle delivers clear equity-curve evidence.
+            No more guess work. Deliver your model with confidence.
           </p>
         </div>
       </div>

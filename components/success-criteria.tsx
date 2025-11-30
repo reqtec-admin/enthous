@@ -8,78 +8,76 @@ export default function SuccessCriteria() {
       <div className="max-w-5xl mx-auto">
         <h2 className="text-4xl md:text-5xl font-bold font-mono text-white mb-4 text-balance">Success at Week 12</h2>
         <p className="text-lg text-white/60 mb-12 leading-relaxed">
-          At the end of 12 weeks, you see one of two clear outcomes:
+          At the end of 12 weeks, validated models enable strategic next steps:
         </p>
 
         <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-12">
-          {/* Option A */}
+          {/* Go Profitable */}
           <div className="p-8 rounded-2xl bg-gradient-to-br from-white/10 to-white/5 border border-white/20 backdrop-blur-xl">
             <div className="flex items-center gap-3 mb-6">
               <TrendingUp className="w-8 h-8 text-white" />
-              <h3 className="text-2xl font-bold font-mono text-white">Option A: Go Profitable</h3>
+              <h3 className="text-2xl font-bold font-mono text-white">Go Profitable</h3>
             </div>
 
             <div className="space-y-4">
               <p className="text-white/80 leading-relaxed">
-                A new model beats your baseline by{" "}
-                <span className="font-semibold text-white">≥ 1% annualized return</span>.
+                This means the first models present would then turn their attention to fully scaling and seeking profits from Options Trades.
               </p>
 
               <ul className="space-y-3">
                 <li className="flex items-start gap-3">
                   <CheckCircle2 className="w-5 h-5 text-white flex-shrink-0 mt-0.5" />
                   <span className="text-sm text-white/70">
-                    Calibrated probabilities (reliability diagram near-diagonal)
+                    Scale validated models to production trading infrastructure
                   </span>
                 </li>
                 <li className="flex items-start gap-3">
                   <CheckCircle2 className="w-5 h-5 text-white flex-shrink-0 mt-0.5" />
-                  <span className="text-sm text-white/70">Statistically significant improvement (p &lt; 0.05)</span>
+                  <span className="text-sm text-white/70">Deploy options trading strategies with calibrated risk management</span>
                 </li>
                 <li className="flex items-start gap-3">
                   <CheckCircle2 className="w-5 h-5 text-white flex-shrink-0 mt-0.5" />
-                  <span className="text-sm text-white/70">Full audit trail, reproducible in one command</span>
+                  <span className="text-sm text-white/70">Focus on profit generation and portfolio optimization</span>
                 </li>
               </ul>
 
               <div className="mt-6 p-4 rounded-lg bg-white/5 border border-white/10">
                 <p className="text-xs text-white/60 mb-2">NEXT STEP</p>
-                <p className="text-white font-semibold">→ Prepare cloud burst with Terraform/Ansible</p>
+                <p className="text-white font-semibold">→ Expand Delphi FinML Solutions</p>
               </div>
             </div>
           </div>
 
-          {/* Option B */}
+          {/* Expand Enthous.IO */}
           <div className="p-8 rounded-2xl bg-gradient-to-br from-white/10 to-white/5 border border-white/20 backdrop-blur-xl">
             <div className="flex items-center gap-3 mb-6">
               <CheckCircle2 className="w-8 h-8 text-white" />
-              <h3 className="text-2xl font-bold font-mono text-white">Option B: Prove It's Hard</h3>
+              <h3 className="text-2xl font-bold font-mono text-white">Expand Enthous.IO</h3>
             </div>
 
             <div className="space-y-4">
               <p className="text-white/80 leading-relaxed">
-                After 12 weeks of iteration, nothing moved the needle significantly. Market regime or model assumption
-                is the blocker.
+                This means expanding and marketing the environment to others beyond Delphi FinML.
               </p>
 
               <ul className="space-y-3">
                 <li className="flex items-start gap-3">
                   <CheckCircle2 className="w-5 h-5 text-white flex-shrink-0 mt-0.5" />
-                  <span className="text-sm text-white/70">Saved millions by validating before scaling</span>
+                  <span className="text-sm text-white/70">Market Enthous.IO as a standalone research platform</span>
                 </li>
                 <li className="flex items-start gap-3">
                   <CheckCircle2 className="w-5 h-5 text-white flex-shrink-0 mt-0.5" />
-                  <span className="text-sm text-white/70">Clear, documented evidence of what doesn't work</span>
+                  <span className="text-sm text-white/70">Onboard new financial ML development teams</span>
                 </li>
                 <li className="flex items-start gap-3">
                   <CheckCircle2 className="w-5 h-5 text-white flex-shrink-0 mt-0.5" />
-                  <span className="text-sm text-white/70">Foundation for next research hypothesis</span>
+                  <span className="text-sm text-white/70">Build partnerships with quantitative trading firms</span>
                 </li>
               </ul>
 
               <div className="mt-6 p-4 rounded-lg bg-white/5 border border-white/10">
                 <p className="text-xs text-white/60 mb-2">NEXT STEP</p>
-                <p className="text-white font-semibold">→ Pivot or scale research differently</p>
+                <p className="text-white font-semibold">→ Scale to new FinML Model Developers</p>
               </div>
             </div>
           </div>
