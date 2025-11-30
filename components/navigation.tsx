@@ -11,7 +11,7 @@ export default function Navigation() {
     <nav className="fixed top-0 w-full z-50 backdrop-blur-md border-b border-white/10 bg-black/40">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center h-16">
-          <div className="flex items-center gap-2">
+          <Link href="/" className="flex items-center gap-2 hover:opacity-80 transition-opacity cursor-pointer">
             <Image 
               src="/icon.svg" 
               alt="Enthous.IO" 
@@ -20,7 +20,7 @@ export default function Navigation() {
               className="w-8 h-8"
             />
             <span className="font-mono text-sm font-bold text-white">ENTHOUS.IO</span>
-          </div>
+          </Link>
 
           <button onClick={() => setIsOpen(!isOpen)} className="md:hidden text-white">
             <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">

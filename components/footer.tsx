@@ -105,7 +105,7 @@ export default function Footer() {
               <ul className="space-y-2">
                 <li>
                   <a
-                    href="https://x.com/recteqX"
+                    href="https://x.com/reqtecX"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="text-sm text-white/70 hover:text-white transition"
