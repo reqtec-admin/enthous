@@ -43,7 +43,7 @@ export default function SuccessCriteria() {
 
               <div className="mt-6 p-4 rounded-lg bg-white/5 border border-white/10 group-hover:bg-blue-500/10 transition">
                 <p className="text-xs text-white/60 mb-2">NEXT STEP</p>
-                <p className="text-white font-semibold">→ Expand Delphi FinML Solutions</p>
+                <p className="text-white font-semibold">→ Expand Our Initial Partner's FinML Solutions</p>
               </div>
             </div>
           </div>
@@ -57,7 +57,7 @@ export default function SuccessCriteria() {
 
             <div className="space-y-4">
               <p className="text-white/80 leading-relaxed">
-                This means expanding and marketing the environment to others beyond Delphi FinML.
+                This means expanding and marketing the environment to others beyond Our Initial Partner's FinML.
               </p>
 
               <ul className="space-y-3">
